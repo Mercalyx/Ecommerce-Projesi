@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" stroke-linecap="round" stroke-linejoin="round">
+  <title>Janissary Guard</title>
+  <defs>
+    <linearGradient id="janissary-navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3A607E"/>
+      <stop offset=".55" stop-color="#23455F"/>
+      <stop offset="1" stop-color="#173448"/>
+    </linearGradient>
+    <linearGradient id="janissary-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE398"/>
+      <stop offset=".55" stop-color="#E1B248"/>
+      <stop offset="1" stop-color="#B47B27"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="120" cy="120" r="112" fill="#FBF3E5"/>
+  <ellipse cx="120" cy="205" rx="66" ry="10" fill="#D8C6AE" opacity=".52"/>
+
+  <!-- ceremonial banner kept fully inside the card -->
+  <path d="M182 65 V199" fill="none" stroke="#765042" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="182" cy="60" r="6" fill="url(#janissary-gold)" stroke="#8C6128" stroke-width="2.5"/>
+  <path d="M184 70 Q194 67 204 72 V111 Q194 107 184 112Z" fill="#982F49" stroke="#663242" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M189 77 Q196 75 200 77 V99 Q195 97 189 100Z" fill="#287A64"/>
+  <path d="M190 86 Q195 79 200 86 Q195 94 190 86Z" fill="#F5D06A"/>
+  <path d="M187 73 Q193 71 198 73" fill="none" stroke="#E26B79" stroke-width="2.5" stroke-linecap="round" opacity=".75"/>
+
+  <!-- boots and compact guard uniform -->
+  <path d="M77 187 Q92 184 108 191 L106 204 Q88 208 69 204 Q69 196 77 187Z" fill="#3E2530"/>
+  <path d="M132 191 Q148 184 162 188 Q171 196 170 204 Q151 208 134 204Z" fill="#3E2530"/>
+  <path d="M79 127 Q94 115 108 113 H134 Q149 115 162 128 Q168 157 170 195 Q148 204 120 195 Q92 204 69 195 Q72 156 79 127Z" fill="url(#janissary-navy)" stroke="#3F4143" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M81 128 Q67 133 57 148 Q51 162 54 180 Q63 188 76 181 L92 150Z" fill="#315570" stroke="#3F4143" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M159 128 Q172 132 180 146 Q187 160 184 177 Q176 184 164 178 L148 150Z" fill="#1B3B53" stroke="#3F4143" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M97 116 Q106 130 120 139 Q134 130 143 116 L152 138 Q138 151 120 158 Q102 151 88 138Z" fill="#97304A" stroke="#683143" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M115 151 Q120 147 125 151 L129 195 Q120 199 111 195Z" fill="url(#janissary-gold)"/>
+  <path d="M80 151 Q94 158 102 170 M160 151 Q146 158 138 170" fill="none" stroke="#E4B548" stroke-width="3" stroke-linecap="round"/>
+  <path d="M85 177 Q99 184 109 190 M155 177 Q141 184 131 190" fill="none" stroke="#C88E2E" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="120" cy="166" r="4.4" fill="#F7D77C"/>
+  <circle cx="120" cy="181" r="4.4" fill="#F7D77C"/>
+  <path d="M85 131 Q91 126 97 124" fill="none" stroke="#7796AA" stroke-width="3" stroke-linecap="round" opacity=".67"/>
+
+  <!-- face, friendly discipline and curled moustache -->
+  <path d="M89 81 Q90 66 103 59 Q120 51 137 59 Q151 67 151 84 V107 Q150 123 136 135 Q128 142 120 142 Q111 142 103 135 Q89 123 89 107Z" fill="#684331"/>
+  <path d="M95 80 Q99 67 120 65 Q141 67 145 80 V106 Q145 121 134 132 Q127 137 120 137 Q112 137 105 132 Q95 121 95 106Z" fill="#E9BE98" stroke="#6A473A" stroke-width="3"/>
+  <ellipse cx="107" cy="101" rx="6.4" ry="7.3" fill="#34443D"/>
+  <ellipse cx="133" cy="101" rx="6.4" ry="7.3" fill="#34443D"/>
+  <circle cx="105" cy="98.5" r="2.2" fill="#FFFFFF"/>
+  <circle cx="131" cy="98.5" r="2.2" fill="#FFFFFF"/>
+  <path d="M100 92 Q107 88 114 91 M126 91 Q133 88 140 92" fill="none" stroke="#57372F" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="101" cy="114" rx="7" ry="4.5" fill="#DE918B" opacity=".46"/>
+  <ellipse cx="139" cy="114" rx="7" ry="4.5" fill="#DE918B" opacity=".46"/>
+  <path d="M106 116 Q114 111 120 118 Q126 111 134 116 Q130 122 124 123 Q120 127 116 123 Q110 122 106 116Z" fill="#5B392E"/>
+  <path d="M112 129 Q120 133 128 129" fill="none" stroke="#9C5D4E" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="107" cy="78" rx="12" ry="6" fill="#F9D9BB" opacity=".43" transform="rotate(-18 107 78)"/>
+
+  <!-- unmistakable tall white börk -->
+  <path d="M87 81 Q84 70 91 62 L92 47 Q100 38 112 41 Q121 34 131 42 Q145 39 151 48 L151 64 Q157 71 152 82 Q120 89 87 81Z" fill="#FFF8E8" stroke="#8C7A64" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M97 48 Q108 52 120 41 Q132 52 145 48 M92 61 Q120 69 151 61 M89 73 Q120 80 154 72" fill="none" stroke="#D7C5A8" stroke-width="2.7" stroke-linecap="round"/>
+  <path d="M87 77 Q119 84 153 77 L152 88 Q120 94 88 88Z" fill="#8F2947" stroke="#673143" stroke-width="2.8"/>
+  <path d="M112 77 Q120 68 128 77 L127 88 Q120 92 113 88Z" fill="url(#janissary-gold)"/>
+  <path d="M118 48 Q120 43 122 48 V75 H118Z" fill="#E5B548" opacity=".75"/>
+  <circle cx="120" cy="81" r="3.5" fill="#297F67"/>
+
+  <!-- hands: one salutes, one steadies the flag -->
+  <ellipse cx="66" cy="176" rx="10" ry="9" fill="#E9BE98" stroke="#6A473A" stroke-width="2.7"/>
+  <path d="M165 164 Q173 157 180 163 L181 177 Q173 184 164 178Z" fill="#E9BE98" stroke="#6A473A" stroke-width="2.7"/>
+  <path d="M66 167 Q56 153 63 142 Q69 133 76 142 L78 161" fill="#E9BE98" stroke="#6A473A" stroke-width="2.7" stroke-linejoin="round"/>
+  <path d="M64 144 Q69 148 76 143" fill="none" stroke="#F8D8BB" stroke-width="2.3" stroke-linecap="round"/>
+</svg>
