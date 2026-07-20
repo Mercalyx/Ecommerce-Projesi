@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <title>Pearl Shell</title>
+  <defs>
+    <linearGradient id="pearlShellPink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFDDE7"/>
+      <stop offset="1" stop-color="#E99BB6"/>
+    </linearGradient>
+    <linearGradient id="pearlShellInner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF3F6"/>
+      <stop offset="1" stop-color="#F5B8CA"/>
+    </linearGradient>
+    <radialGradient id="pearlGlow" cx="34%" cy="25%" r="74%">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".68" stop-color="#FFF9EA"/>
+      <stop offset="1" stop-color="#DDEBE7"/>
+    </radialGradient>
+  </defs>
+  <circle cx="120" cy="120" r="112" fill="#E9F7F3"/>
+  <circle cx="72" cy="67" r="7" fill="#FFFFFF" opacity=".42"/>
+  <circle cx="177" cy="73" r="4" fill="#FFFFFF" opacity=".5"/>
+  <circle cx="188" cy="91" r="7" fill="none" stroke="#B9DED5" stroke-width="2.5" opacity=".72"/>
+  <ellipse cx="120" cy="201" rx="66" ry="10" fill="#326B66" opacity=".14"/>
+  <g stroke="#8E506A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M59 126C54 97 65 69 88 53C98 46 109 42 120 42C131 42 142 46 152 53C175 69 186 97 181 126C164 139 144 145 120 145C96 145 76 139 59 126Z" fill="url(#pearlShellPink)"/>
+    <path d="M69 119C67 96 77 74 94 61C103 54 112 51 120 50C128 51 137 54 146 61C163 74 173 96 171 119C155 130 138 135 120 135C102 135 85 130 69 119Z" fill="url(#pearlShellInner)" stroke="#C77494"/>
+    <path d="M120 49C119 76 120 102 120 134" fill="none" stroke="#D98BA6"/>
+    <path d="M94 61C100 83 108 107 114 134" fill="none" stroke="#D98BA6"/>
+    <path d="M146 61C140 83 132 107 126 134" fill="none" stroke="#D98BA6"/>
+    <path d="M76 82C87 98 96 116 104 131" fill="none" stroke="#D98BA6"/>
+    <path d="M164 82C153 98 144 116 136 131" fill="none" stroke="#D98BA6"/>
+    <path d="M78 82C88 64 101 52 115 48" fill="none" stroke="#FFFFFF" opacity=".55"/>
+    <path d="M60 135C77 127 96 124 120 124C144 124 163 127 180 135C179 164 166 187 143 198C128 205 112 205 97 198C74 187 61 164 60 135Z" fill="url(#pearlShellPink)"/>
+    <path d="M69 143C84 137 101 134 120 134C139 134 156 137 171 143C167 165 157 181 139 190C126 196 114 196 101 190C83 181 73 165 69 143Z" fill="#FFD8E3" stroke="#C77494"/>
+    <path d="M72 169C84 177 101 182 120 182C139 182 156 177 168 169" fill="none" stroke="#E293AE"/>
+    <path d="M89 187C98 193 108 196 120 196C132 196 142 193 151 187" fill="none" stroke="#E293AE"/>
+    <ellipse cx="120" cy="127" rx="34" ry="35" fill="url(#pearlGlow)" stroke="#9AAFAE"/>
+    <path d="M94 122C97 105 107 96 122 94" fill="none" stroke="#FFFFFF" stroke-width="3.5" opacity=".86"/>
+    <path d="M91 139C83 136 78 140 77 147C80 153 86 155 92 153" fill="#FFF7E9" stroke="#9AAFAE"/>
+    <path d="M149 139C157 136 162 140 163 147C160 153 154 155 148 153" fill="#FFF7E9" stroke="#9AAFAE"/>
+    <ellipse cx="108" cy="126" rx="4.6" ry="6" fill="#24484B" stroke="none"/>
+    <ellipse cx="133" cy="126" rx="4.6" ry="6" fill="#24484B" stroke="none"/>
+    <circle cx="106.5" cy="124" r="1.5" fill="#FFFFFF" stroke="none"/>
+    <circle cx="131.5" cy="124" r="1.5" fill="#FFFFFF" stroke="none"/>
+    <ellipse cx="99" cy="139" rx="6" ry="3.5" fill="#F4A8BB" opacity=".6" stroke="none"/>
+    <ellipse cx="141" cy="139" rx="6" ry="3.5" fill="#F4A8BB" opacity=".6" stroke="none"/>
+    <path d="M112 140C117 146 123 146 128 140" fill="none" stroke="#785765"/>
+    <path d="M104 95C106 86 112 81 120 81C128 81 134 86 136 95L128 91L120 96L112 91Z" fill="#E8C470" stroke="#9B7742"/>
+    <circle cx="120" cy="87" r="4" fill="#66C9C0" stroke="#9B7742"/>
+    <circle cx="109" cy="92" r="3" fill="#FFF4D1" stroke="none"/>
+    <circle cx="131" cy="92" r="3" fill="#FFF4D1" stroke="none"/>
+  </g>
+  <path d="M44 96C44 89 48 85 55 85C48 85 44 81 44 74C44 81 40 85 33 85C40 85 44 89 44 96Z" fill="#FFFFFF" opacity=".82"/>
+</svg>

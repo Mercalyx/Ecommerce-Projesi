@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280">
+  <title>Shells &amp; Stones premium egg capsule</title>
+  <defs>
+    <linearGradient id="shell" x1="18%" y1="8%" x2="82%" y2="92%">
+      <stop offset="0" stop-color="#B7EEE8"/>
+      <stop offset=".46" stop-color="#42AAA8"/>
+      <stop offset="1" stop-color="#176B73"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="28%" cy="20%" r="72%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".9"/>
+      <stop offset=".34" stop-color="#FFFFFF" stop-opacity=".27"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".68"/>
+      <stop offset="1" stop-color="#0B4E55" stop-opacity=".65"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-80%" width="160%" height="260%"><feGaussianBlur stdDeviation="5"/></filter>
+    <clipPath id="eggClip"><path d="M100 14C63 14 39 55 27 116C11 195 45 255 100 255s89-60 73-139C161 55 137 14 100 14Z"/></clipPath>
+  </defs>
+  <ellipse cx="100" cy="257" rx="58" ry="10" fill="#0B4E55" opacity=".3" filter="url(#shadow)"/>
+  <path d="M100 14C63 14 39 55 27 116C11 195 45 255 100 255s89-60 73-139C161 55 137 14 100 14Z" fill="url(#shell)"/>
+  <g clip-path="url(#eggClip)">
+    <ellipse cx="67" cy="77" rx="55" ry="80" fill="url(#shine)"/>
+    <path d="M26 151Q100 165 174 151V166Q100 179 26 165Z" fill="#F3B8C9" opacity=".3"/>
+    <!-- sedef kabuk ve inci -->
+    <g transform="translate(100 102)">
+      <path d="M-43 15Q-37-25 0-44Q37-25 43 15Q21 3 0 20Q-21 3-43 15Z" fill="#F4BCD0"/>
+      <path d="M-32 8Q-26-17 0-34Q26-17 32 8Q16 1 0 13Q-16 1-32 8Z" fill="#FFDDE7"/>
+      <path d="M0-38V12M-27-13L-10 10M27-13L10 10" fill="none" stroke="#CB7899" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="0" cy="17" r="16" fill="#FFF9EA"/>
+      <ellipse cx="-5" cy="11" rx="6" ry="4" fill="#FFFFFF" opacity=".9" transform="rotate(-25 -5 11)"/>
+    </g>
+    <g fill="none" stroke="#D9FAF5" stroke-width="3" opacity=".9">
+      <circle cx="54" cy="194" r="7"/><circle cx="148" cy="207" r="9"/><circle cx="157" cy="185" r="4"/>
+    </g>
+    <path d="M48 216Q65 198 82 216" fill="none" stroke="#F4BCD0" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <path d="M25 151Q100 165 175 151" fill="none" stroke="#E8FFFB" stroke-width="5" opacity=".95"/>
+  <path d="M27 157Q100 171 173 157" fill="none" stroke="#176B73" stroke-width="2" opacity=".65"/>
+  <path d="M69 38C49 68 39 112 40 151C41 174 47 190 54 202" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" opacity=".36"/>
+  <ellipse cx="74" cy="49" rx="13" ry="7" fill="#FFFFFF" opacity=".58" transform="rotate(-28 74 49)"/>
+  <path d="M100 14C63 14 39 55 27 116C11 195 45 255 100 255s89-60 73-139C161 55 137 14 100 14Z" fill="none" stroke="url(#rim)" stroke-width="3"/>
+</svg>

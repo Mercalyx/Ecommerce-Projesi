@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <title>Alhambra Moon</title>
+  <defs>
+    <radialGradient id="backdrop" cx="32%" cy="24%" r="82%">
+      <stop offset="0" stop-color="#FFF9EC"/>
+      <stop offset=".58" stop-color="#F3E5DF"/>
+      <stop offset="1" stop-color="#DEC5CF"/>
+    </radialGradient>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#49628F"/>
+      <stop offset=".48" stop-color="#243C69"/>
+      <stop offset="1" stop-color="#101D38"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF0AE"/>
+      <stop offset=".5" stop-color="#E3B951"/>
+      <stop offset="1" stop-color="#A66B1E"/>
+    </linearGradient>
+    <radialGradient id="moon-glow" cx="42%" cy="34%" r="70%">
+      <stop offset="0" stop-color="#FFF8D3"/>
+      <stop offset=".48" stop-color="#E9CA6C"/>
+      <stop offset="1" stop-color="#B07A25"/>
+    </radialGradient>
+    <filter id="soft-shadow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="halo-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <circle cx="120" cy="120" r="112" fill="url(#backdrop)"/>
+  <path d="M38 139 C46 76 76 41 120 35 C164 41 194 76 202 139" fill="none" stroke="#7A1F2B" stroke-width="2.5" stroke-linecap="round" opacity=".10"/>
+  <path d="M48 160 C58 101 82 66 120 57 C158 66 182 101 192 160" fill="none" stroke="#C49A48" stroke-width="2.5" stroke-linecap="round" opacity=".13"/>
+  <ellipse cx="87" cy="53" rx="42" ry="24" fill="#FFFFFF" opacity=".28" transform="rotate(-20 87 53)"/>
+  <ellipse cx="120" cy="205" rx="59" ry="9" fill="#5B3040" opacity=".20" filter="url(#soft-shadow)"/>
+
+  <!-- Moonlit palace ambience -->
+  <circle cx="116" cy="103" r="73" fill="#F3D677" opacity=".14" filter="url(#halo-glow)"/>
+  <path d="M52 174 V113 Q52 94 67 85 Q82 94 82 113 V174 M162 174 V107 Q162 87 178 78 Q194 87 194 107 V174" fill="none" stroke="#263B62" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".14"/>
+  <g fill="#D8AC47" opacity=".78">
+    <circle cx="55" cy="69" r="3.5"/>
+    <circle cx="185" cy="127" r="3"/>
+    <path d="M181 49 C185 57 185 61 181 69 C177 61 177 57 181 49Z"/>
+  </g>
+
+  <g stroke="#4D2A38" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- A freestanding Nasrid crescent, entirely object-based -->
+    <path d="M151 38 Q105 32 78 66 Q53 98 68 133 Q82 167 122 173 Q153 178 177 156 Q145 164 122 147 Q97 129 100 99 Q103 67 129 53 Q140 47 151 38Z" fill="url(#gold)"/>
+    <path d="M143 49 Q111 43 89 70 Q68 95 79 123 Q90 151 121 159 Q140 164 158 156 Q137 154 121 141 Q102 125 105 101 Q108 76 128 62 Q135 57 143 49Z" fill="url(#night)"/>
+
+    <!-- Gold bevels and dimensional crescent facets -->
+    <path d="M151 38 Q105 32 78 66 Q53 98 68 133 Q82 167 122 173" fill="none" stroke="#FFF0AA" stroke-width="4"/>
+    <path d="M122 173 Q153 178 177 156 Q145 164 122 147" fill="none" stroke="#9F661B" stroke-width="4"/>
+    <path d="M93 65 Q108 77 105 101 Q102 125 121 141" fill="none" stroke="#E5C15E" stroke-width="2" opacity=".72"/>
+
+    <!-- Inlaid Nasrid mosaics follow the crescent curve -->
+    <path d="M105 50 L115 61 L105 72 L95 61Z" fill="#7A1F2B" stroke="#F5D982" stroke-width="2"/>
+    <path d="M82 76 L91 86 L82 96 L73 86Z" fill="#1F6E65" stroke="#F5D982" stroke-width="2"/>
+    <path d="M76 110 L85 120 L76 130 L67 120Z" fill="#7A1F2B" stroke="#F5D982" stroke-width="2"/>
+    <path d="M91 140 L101 151 L91 161 L81 151Z" fill="#1F6E65" stroke="#F5D982" stroke-width="2"/>
+    <path d="M111 62 L124 75 L111 88 M85 96 L98 109 L85 122 M100 130 L113 143 L101 155" fill="none" stroke="#E6C361" stroke-width="2"/>
+
+    <!-- Small stars suspended inside the crescent -->
+    <path d="M132 71 L137 80 L147 81 L139 88 L142 98 L132 93 L122 98 L125 88 L117 81 L127 80Z" fill="url(#moon-glow)"/>
+    <path d="M148 103 L152 110 L160 111 L154 117 L156 125 L148 121 L140 125 L142 117 L136 111 L144 110Z" fill="url(#gold)"/>
+    <path d="M131 119 L134 125 L141 126 L136 131 L137 138 L131 135 L125 138 L126 131 L121 126 L128 125Z" fill="#FFF3BC" stroke="#C79534" stroke-width="2"/>
+    <path d="M132 53 V71 M148 93 V103 M131 111 V119" fill="none" stroke="#C99839" stroke-width="2"/>
+    <circle cx="156" cy="76" r="4" fill="#1F6E65" stroke="#F3D579" stroke-width="2"/>
+    <circle cx="169" cy="98" r="3.5" fill="#7A1F2B" stroke="#F3D579" stroke-width="2"/>
+
+    <!-- Architectural crown and jewel setting -->
+    <path d="M103 170 H137 L145 183 H95Z" fill="url(#night)"/>
+    <path d="M108 170 V159 H115 V170 M125 170 V158 Q132 149 139 158 V170 M139 170 H101 M101 170 V160 Q105 154 109 160" fill="none" stroke="#F0D274" stroke-width="2"/>
+    <path d="M91 182 H149 L157 195 Q120 203 83 195Z" fill="url(#gold)"/>
+    <path d="M98 183 Q120 191 142 183" fill="none" stroke="#7A1F2B"/>
+    <path d="M91 195 H149 L154 202 H86Z" fill="#152849"/>
+    <path d="M114 185 L120 178 L126 185 L120 192Z" fill="#1F6E65" stroke="#F8DE88" stroke-width="2"/>
+  </g>
+</svg>

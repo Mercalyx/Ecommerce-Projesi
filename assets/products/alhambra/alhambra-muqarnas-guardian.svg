@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <title>Muqarnas Guardian</title>
+  <defs>
+    <radialGradient id="backdrop" cx="32%" cy="24%" r="82%">
+      <stop offset="0" stop-color="#FFF9EC"/>
+      <stop offset=".58" stop-color="#F3E5DF"/>
+      <stop offset="1" stop-color="#DEC5CF"/>
+    </radialGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#49628F"/>
+      <stop offset=".45" stop-color="#223A68"/>
+      <stop offset="1" stop-color="#101D38"/>
+    </linearGradient>
+    <linearGradient id="deep-navy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#243C69"/>
+      <stop offset="1" stop-color="#0C1730"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE9A2"/>
+      <stop offset=".5" stop-color="#E3BA57"/>
+      <stop offset="1" stop-color="#A96F20"/>
+    </linearGradient>
+    <linearGradient id="crystal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D6ECF1" stop-opacity=".92"/>
+      <stop offset=".45" stop-color="#6E91B6" stop-opacity=".78"/>
+      <stop offset="1" stop-color="#243C69" stop-opacity=".94"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="gold-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <circle cx="120" cy="120" r="112" fill="url(#backdrop)"/>
+  <path d="M38 139 C46 76 76 41 120 35 C164 41 194 76 202 139" fill="none" stroke="#7A1F2B" stroke-width="2.5" stroke-linecap="round" opacity=".10"/>
+  <path d="M48 160 C58 101 82 66 120 57 C158 66 182 101 192 160" fill="none" stroke="#C49A48" stroke-width="2.5" stroke-linecap="round" opacity=".13"/>
+  <ellipse cx="87" cy="53" rx="42" ry="24" fill="#FFFFFF" opacity=".28" transform="rotate(-20 87 53)"/>
+  <ellipse cx="120" cy="205" rx="59" ry="9" fill="#5B3040" opacity=".20" filter="url(#soft-shadow)"/>
+
+  <circle cx="120" cy="112" r="65" fill="#E8C46D" opacity=".12" filter="url(#gold-glow)"/>
+  <g fill="#D7AA48" opacity=".75">
+    <path d="M56 83 C60 90 60 94 56 101 C52 94 52 90 56 83Z"/>
+    <path d="M184 83 C188 90 188 94 184 101 C180 94 180 90 184 83Z"/>
+    <circle cx="68" cy="128" r="3.5"/>
+    <circle cx="174" cy="128" r="3.5"/>
+  </g>
+
+  <g stroke="#4D2A38" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Jewel suspension and pointed Nasrid canopy -->
+    <path d="M120 29 V43" fill="none" stroke="#C99537"/>
+    <path d="M114 31 L120 24 L126 31 L120 39Z" fill="url(#gold)"/>
+    <path d="M73 79 Q79 46 120 38 Q161 46 167 79 L155 70 Q144 52 120 49 Q96 52 85 70Z" fill="url(#deep-navy)"/>
+    <path d="M82 70 Q120 48 158 70" fill="none" stroke="#E0B34F"/>
+    <path d="M91 62 L99 72 L108 56 L120 70 L132 56 L141 72 L149 62" fill="none" stroke="#F1D276"/>
+
+    <!-- Crystal muqarnas: three deep geometric tiers -->
+    <path d="M77 77 L163 77 L151 103 L89 103Z" fill="url(#gold)"/>
+    <path d="M77 77 L99 84 L89 103Z" fill="#B77D27"/>
+    <path d="M163 77 L141 84 L151 103Z" fill="#F2D47A"/>
+    <path d="M99 84 L120 77 L141 84 L132 104 L108 104Z" fill="url(#navy)"/>
+    <path d="M99 84 L120 77 L108 104Z" fill="#6F89AC" opacity=".78"/>
+    <path d="M120 77 L141 84 L132 104Z" fill="#172A50"/>
+
+    <path d="M88 102 L152 102 L142 130 L98 130Z" fill="url(#crystal)"/>
+    <path d="M88 102 L108 109 L98 130Z" fill="#1C315A"/>
+    <path d="M152 102 L132 109 L142 130Z" fill="#D7B451"/>
+    <path d="M108 109 L120 100 L132 109 L126 131 L114 131Z" fill="url(#gold)"/>
+    <path d="M108 109 L120 100 L114 131Z" fill="#F4DA89"/>
+
+    <path d="M98 129 L142 129 L134 157 L106 157Z" fill="url(#navy)"/>
+    <path d="M98 129 L114 137 L106 157Z" fill="#6F8FB5"/>
+    <path d="M142 129 L126 137 L134 157Z" fill="#101D38"/>
+    <path d="M114 137 L120 126 L126 137 L120 160Z" fill="url(#gold)"/>
+
+    <!-- Finial crystal and inlaid facets -->
+    <path d="M107 156 L133 156 L128 177 L120 188 L112 177Z" fill="url(#crystal)"/>
+    <path d="M107 156 L120 164 L112 177Z" fill="#D9EEF0" opacity=".78"/>
+    <path d="M133 156 L120 164 L128 177Z" fill="#1C3158"/>
+    <path d="M120 164 V188" fill="none" stroke="#D9B454"/>
+    <path d="M114 177 L120 188 L126 177" fill="none" stroke="#EACB70"/>
+
+    <!-- Repeating Nasrid inlays -->
+    <path d="M94 91 L101 86 L108 91 L101 97Z M132 91 L139 86 L146 91 L139 97Z" fill="#244D70" stroke="#F0D27C" stroke-width="2"/>
+    <path d="M101 117 L108 111 L115 117 L108 124Z M125 117 L132 111 L139 117 L132 124Z" fill="#7A1F2B" stroke="#F0D27C" stroke-width="2"/>
+    <circle cx="120" cy="113" r="5" fill="#1F6E65" stroke="#F7DC89"/>
+
+    <!-- Museum-style jewel pedestal -->
+    <path d="M88 184 H152 L160 196 Q120 204 80 196Z" fill="url(#gold)"/>
+    <path d="M94 177 H146 L151 187 H89Z" fill="url(#deep-navy)"/>
+    <path d="M103 181 H137" fill="none" stroke="#EAC96E"/>
+    <path d="M96 196 H144 L149 202 H91Z" fill="#162748"/>
+    <circle cx="120" cy="186" r="5" fill="#7A1F2B" stroke="#F6DA84"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120">
+  <title>Alhambra Deluxe premium mystery capsule lineup</title>
+  <defs>
+    <linearGradient id="mini" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B34C5B"/><stop offset="1" stop-color="#4B111C"/></linearGradient>
+    <symbol id="egg" viewBox="0 0 48 82">
+      <ellipse cx="24" cy="77" rx="16" ry="3" fill="#2C0911" opacity=".25"/>
+      <path d="M24 3C13 3 7 16 4 34C0 60 9 76 24 76S48 60 44 34C41 16 35 3 24 3Z" fill="url(#mini)"/>
+      <path d="M8 45Q24 49 40 45" fill="none" stroke="#E6C552" stroke-width="2"/>
+      <path d="M14 12Q8 26 9 40" fill="none" stroke="#FFF" stroke-width="4" stroke-linecap="round" opacity=".38"/>
+      <path d="M24 14L27 24L37 21L32 30L40 36L30 38L32 48L24 43L16 48L18 38L8 36L16 30L11 21L21 24Z" fill="none" stroke="#E6C552" stroke-width="2" stroke-linejoin="round"/>
+    </symbol>
+  </defs>
+  <rect x="3" y="8" width="294" height="104" rx="28" fill="#281019"/>
+  <rect x="9" y="14" width="282" height="92" rx="23" fill="none" stroke="#D4AF37" stroke-width="2" opacity=".75"/>
+  <path d="M26 26H274" stroke="#FFF" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+  <use href="#egg" x="12" y="19" width="48" height="82"/><use href="#egg" x="69" y="19" width="48" height="82"/>
+  <use href="#egg" x="126" y="19" width="48" height="82"/><use href="#egg" x="183" y="19" width="48" height="82"/>
+  <use href="#egg" x="240" y="19" width="48" height="82"/>
+</svg>

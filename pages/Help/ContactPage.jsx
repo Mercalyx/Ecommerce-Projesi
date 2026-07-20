@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const info = [
-  { label: "E-posta", value: "destek@premiumessentials.com" },
+  { label: "E-posta", value: "destek@kubishop.com" },
   { label: "Telefon", value: "0850 123 45 67" },
   { label: "Adres", value: "Bağdat Cd. No:123, Kadıköy, İstanbul" },
   { label: "Çalışma Saatleri", value: "Hafta içi 09:00 - 18:00" },

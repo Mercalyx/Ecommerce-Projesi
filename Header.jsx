@@ -5,8 +5,6 @@ import { AuthContext } from "./context/AuthContext";
 import { ThemeContext } from "./context/ThemeContext";
 import products from "./data/products";
 
-const categories = [...new Set(products.map((p) => p.category))];
-
 const navLinkClass = ({ isActive }) =>
   `text-sm font-medium whitespace-nowrap transition-colors ${
     isActive ? "text-brand-900 dark:text-white" : "text-brand-600 dark:text-brand-300 hover:text-brand-900 dark:hover:text-white"
@@ -52,7 +50,7 @@ function SearchBar({ query, setQuery, onSubmit, size = "md" }) {
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Ürün, kategori veya marka ara..."
+          placeholder="Koleksiyon ara..."
           className="peer w-full h-full pl-4 pr-12 text-sm rounded-full border border-brand-200 dark:border-brand-800 bg-white dark:bg-brand-900 text-brand-950 dark:text-white placeholder:text-brand-400 dark:placeholder:text-brand-400 focus:outline-none focus:ring-2 focus:ring-accent-500 focus:border-transparent"
         />
         <button
@@ -81,7 +79,7 @@ function Header() {
 
   function handleSearch(e) {
     e.preventDefault();
-    navigate(`/premium-essentials${query.trim() ? `?q=${encodeURIComponent(query.trim())}` : ""}`);
+    navigate(`/blind-boxlar${query.trim() ? `?q=${encodeURIComponent(query.trim())}` : ""}`);
     setMobileOpen(false);
   }
 
@@ -92,11 +90,11 @@ function Header() {
   }
 
   return (
-    <header className="sticky top-0 z-40 bg-white/95 dark:bg-brand-950/95 backdrop-blur border-b border-brand-100 dark:border-brand-900">
+    <header className="sticky top-0 z-40 bg-accent-50 dark:bg-accent-800/30 backdrop-blur border-b border-brand-100 dark:border-brand-900">
       {/* Üst bant */}
       <div className="hidden sm:block bg-brand-950 dark:bg-black/40 text-brand-100 text-xs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1.5 flex items-center justify-between">
-          <span>250 ₺ ve üzeri siparişlerde kargo ücretsiz</span>
+          <span>1000 TL ve üzeri siparişlerde kargo ücretsiz</span>
           <Link to="/yardim" className="hover:text-white transition-colors">
             Yardım Merkezi
           </Link>
@@ -105,7 +103,7 @@ function Header() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Ana satır: logo + ikonlar (+ lg'de arama) */}
-        <div className="flex items-center gap-3 sm:gap-4 py-3.5">
+        <div className="flex items-center gap-3 sm:gap-4 py-2 sm:py-2.5">
           <button
             onClick={() => setMobileOpen((v) => !v)}
             className="lg:hidden w-9 h-9 flex items-center justify-center rounded-lg text-brand-700 dark:text-brand-200 hover:bg-brand-50 dark:hover:bg-brand-900 shrink-0"
@@ -120,8 +118,8 @@ function Header() {
             </svg>
           </button>
 
-          <Link to="/" className="font-display text-xl sm:text-2xl font-semibold text-brand-950 dark:text-white tracking-tight shrink-0">
-            Premium Essentials
+          <Link to="/" className="shrink-0 flex items-center">
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Kubishop" className="h-16 sm:h-20 w-auto" />
           </Link>
 
           {/* Masaüstü navigasyon (lg+) */}
@@ -135,25 +133,25 @@ function Header() {
               onMouseEnter={() => setCategoryOpen(true)}
               onMouseLeave={() => setCategoryOpen(false)}
             >
-              <NavLink to="/premium-essentials" className={navLinkClass}>
+              <NavLink to="/blind-boxlar" className={navLinkClass}>
                 <span className="inline-flex items-center gap-1">
-                  Kategoriler
+                  Blind Box'lar
                   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M6 9l6 6 6-6" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </span>
               </NavLink>
               {categoryOpen && (
-                <div className="absolute top-full left-0 pt-3 w-52 animate-slide-down">
+                <div className="absolute top-full left-0 pt-3 w-56 animate-slide-down">
                   <div className="bg-white dark:bg-brand-900 border border-brand-100 dark:border-brand-800 rounded-xl shadow-popover py-2">
-                    {categories.map((c) => (
+                    {products.map((product) => (
                       <Link
-                        key={c}
-                        to={`/premium-essentials?kategori=${encodeURIComponent(c)}`}
+                        key={product.id}
+                        to={`/urun/${product.slug}`}
                         className="block px-4 py-2 text-sm text-brand-700 dark:text-brand-200 hover:bg-brand-50 dark:hover:bg-brand-800 hover:text-brand-950 dark:hover:text-white"
                         onClick={() => setCategoryOpen(false)}
                       >
-                        {c}
+                        {product.collectionName}
                       </Link>
                     ))}
                   </div>
@@ -161,8 +159,16 @@ function Header() {
               )}
             </div>
 
-            <NavLink to="/premium-essentials" className={navLinkClass}>
-              Tüm Ürünler
+            <NavLink to="/koleksiyonlar" className={navLinkClass}>
+              Koleksiyonlar
+            </NavLink>
+
+            <Link to="/#nasil-calisir" className={navLinkClass({ isActive: false })}>
+              Nasıl Çalışır?
+            </Link>
+
+            <NavLink to="/patilere-destek" className={navLinkClass}>
+              Patilere Destek
             </NavLink>
           </nav>
 
@@ -280,25 +286,40 @@ function Header() {
                 Ana Sayfa
               </Link>
               <Link
-                to="/premium-essentials"
+                to="/blind-boxlar"
                 onClick={() => setMobileOpen(false)}
                 className="py-2 text-sm font-medium text-brand-800 dark:text-brand-100"
               >
-                Tüm Ürünler
+                Blind Box'lar
               </Link>
-              {categories.map((c) => (
+              {products.map((product) => (
                 <Link
-                  key={c}
-                  to={`/premium-essentials?kategori=${encodeURIComponent(c)}`}
+                  key={product.id}
+                  to={`/urun/${product.slug}`}
                   onClick={() => setMobileOpen(false)}
                   className="py-2 pl-3 text-sm text-brand-600 dark:text-brand-300 border-l-2 border-brand-100 dark:border-brand-800"
                 >
-                  {c}
+                  {product.collectionName}
                 </Link>
               ))}
+              <Link to="/koleksiyonlar" onClick={() => setMobileOpen(false)} className="py-2 text-sm font-medium text-brand-800 dark:text-brand-100">
+                Koleksiyonlar
+              </Link>
+              <Link to="/#nasil-calisir" onClick={() => setMobileOpen(false)} className="py-2 text-sm font-medium text-brand-800 dark:text-brand-100">
+                Nasıl Çalışır?
+              </Link>
+              <Link to="/patilere-destek" onClick={() => setMobileOpen(false)} className="py-2 text-sm font-medium text-brand-800 dark:text-brand-100">
+                Patilere Destek
+              </Link>
             </nav>
 
             <div className="pt-3 border-t border-brand-100 dark:border-brand-900 flex flex-col gap-1">
+              <Link to="/hesabim" onClick={() => setMobileOpen(false)} className="py-2 text-sm font-medium text-brand-800 dark:text-brand-100">
+                Favorilerim {favorites.length > 0 && `(${favorites.length})`}
+              </Link>
+              <Link to="/cart" onClick={() => setMobileOpen(false)} className="py-2 text-sm font-medium text-brand-800 dark:text-brand-100">
+                Sepetim {itemCount > 0 && `(${itemCount})`}
+              </Link>
               {user ? (
                 <>
                   <Link to="/hesabim" onClick={() => setMobileOpen(false)} className="py-2 text-sm font-medium text-brand-800 dark:text-brand-100">

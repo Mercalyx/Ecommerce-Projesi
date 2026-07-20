@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <title>Rose Quartz Tide</title>
+  <defs>
+    <linearGradient id="quartzHair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFD6E3"/>
+      <stop offset=".58" stop-color="#EFA0BE"/>
+      <stop offset="1" stop-color="#C96992"/>
+    </linearGradient>
+    <linearGradient id="tideDress" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#58D2C6"/>
+      <stop offset="1" stop-color="#218D96"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="112" fill="#E9F7F3"/>
+  <circle cx="68" cy="66" r="6" fill="#FFFFFF" opacity=".42"/>
+  <circle cx="182" cy="81" r="7" fill="none" stroke="#B9DED5" stroke-width="2.5" opacity=".72"/>
+  <ellipse cx="120" cy="202" rx="66" ry="10" fill="#326B66" opacity=".14"/>
+  <g stroke="#584D68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M83 126C77 112 74 91 80 73C83 63 90 57 99 52C102 43 108 37 115 44C120 34 128 33 132 45C141 38 148 42 148 53C160 59 166 69 166 84C166 101 161 115 155 127Z" fill="url(#quartzHair)" stroke="#A9577D"/>
+    <path d="M91 71C86 59 92 49 101 51C103 40 111 35 117 46C123 32 132 34 134 48C144 39 151 45 148 58" fill="none" stroke="#F8B9CF"/>
+    <path d="M96 65C101 56 108 51 114 50M123 48C125 59 127 68 126 77M139 54C135 64 132 73 133 82" fill="none" stroke="#FFF0F5" opacity=".72"/>
+    <ellipse cx="120" cy="94" rx="32" ry="34" fill="#FFD9D4" stroke="#A9577D"/>
+    <path d="M89 88C90 69 101 59 118 59C134 59 145 67 151 83C140 81 134 75 129 67C120 76 107 82 89 88Z" fill="url(#quartzHair)" stroke="#A9577D"/>
+    <path d="M96 72C104 65 112 62 122 61" fill="none" stroke="#FFEAF1" opacity=".85"/>
+    <path d="M92 94C87 91 83 95 84 101C86 106 90 108 94 107M148 94C153 91 157 95 156 101C154 106 150 108 146 107" fill="#FFD9D4"/>
+    <ellipse cx="108" cy="95" rx="4.3" ry="5.7" fill="#344B52" stroke="none"/>
+    <ellipse cx="132" cy="95" rx="4.3" ry="5.7" fill="#344B52" stroke="none"/>
+    <circle cx="106.5" cy="93" r="1.4" fill="#FFFFFF" stroke="none"/>
+    <circle cx="130.5" cy="93" r="1.4" fill="#FFFFFF" stroke="none"/>
+    <ellipse cx="99" cy="108" rx="5.5" ry="3" fill="#F195AF" opacity=".55" stroke="none"/>
+    <ellipse cx="141" cy="108" rx="5.5" ry="3" fill="#F195AF" opacity=".55" stroke="none"/>
+    <path d="M112 108C117 113 123 113 128 108" fill="none" stroke="#9B536E"/>
+    <path d="M91 122C102 116 110 113 120 113C130 113 138 116 149 122C163 143 173 169 180 194C160 203 140 207 120 207C100 207 80 203 60 194C67 169 77 143 91 122Z" fill="url(#tideDress)" stroke="#246C78"/>
+    <path d="M91 122C101 129 110 132 120 132C130 132 139 129 149 122" fill="none" stroke="#A9EFE3"/>
+    <path d="M73 151C63 149 56 157 54 171C57 180 64 184 72 181L86 159" fill="#FFD9D4" stroke="#A9577D"/>
+    <path d="M167 151C177 149 184 157 186 171C183 180 176 184 168 181L154 159" fill="#FFD9D4" stroke="#A9577D"/>
+    <path d="M72 181C81 177 88 171 93 163" fill="none" stroke="#246C78"/>
+    <path d="M168 181C159 177 152 171 147 163" fill="none" stroke="#246C78"/>
+    <path d="M66 181C80 174 91 177 101 185C112 194 126 194 137 184C148 174 161 175 174 181L180 194C159 202 140 207 120 207C100 207 81 202 60 194Z" fill="#A8EFE1" stroke="#246C78"/>
+    <path d="M64 193C80 187 92 189 104 197C116 204 127 204 139 196C150 189 163 188 177 193" fill="none" stroke="#F6FFFB" stroke-width="3.5"/>
+    <path d="M84 145C98 151 108 152 120 150C133 148 145 150 158 157" fill="none" stroke="#78E0D2"/>
+    <path d="M105 118C108 126 113 131 120 133C127 131 132 126 135 118" fill="#F8D890" stroke="#9B7742"/>
+    <path d="M113 123C115 120 117 118 120 116C123 118 125 120 127 123C125 128 123 130 120 132C117 130 115 128 113 123Z" fill="#FFF5D5" stroke="#9B7742"/>
+    <path d="M48 183C50 173 55 166 63 162C61 172 58 180 53 187Z" fill="#F4AEC5" stroke="#A9577D"/>
+    <path d="M177 187C181 174 185 167 193 162C194 174 190 183 184 190Z" fill="#F4AEC5" stroke="#A9577D"/>
+  </g>
+  <path d="M47 105C47 98 51 94 58 94C51 94 47 90 47 83C47 90 43 94 36 94C43 94 47 98 47 105Z" fill="#FFFFFF" opacity=".82"/>
+</svg>

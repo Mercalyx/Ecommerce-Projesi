@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280">
+  <title>Alhambra Deluxe premium egg capsule</title>
+  <defs>
+    <linearGradient id="shell" x1="18%" y1="8%" x2="82%" y2="92%">
+      <stop offset="0" stop-color="#B34A59"/>
+      <stop offset=".46" stop-color="#7A1F2B"/>
+      <stop offset="1" stop-color="#3E101A"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="28%" cy="20%" r="72%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".9"/>
+      <stop offset=".34" stop-color="#FFFFFF" stop-opacity=".27"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE68B" stop-opacity=".68"/>
+      <stop offset="1" stop-color="#2C0911" stop-opacity=".65"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-80%" width="160%" height="260%"><feGaussianBlur stdDeviation="5"/></filter>
+    <clipPath id="eggClip"><path d="M100 14C63 14 39 55 27 116C11 195 45 255 100 255s89-60 73-139C161 55 137 14 100 14Z"/></clipPath>
+  </defs>
+  <ellipse cx="100" cy="257" rx="58" ry="10" fill="#2C0911" opacity=".3" filter="url(#shadow)"/>
+  <path d="M100 14C63 14 39 55 27 116C11 195 45 255 100 255s89-60 73-139C161 55 137 14 100 14Z" fill="url(#shell)"/>
+  <g clip-path="url(#eggClip)">
+    <ellipse cx="67" cy="77" rx="55" ry="80" fill="url(#shine)"/>
+    <path d="M26 151Q100 165 174 151V166Q100 179 26 165Z" fill="#D4AF37" opacity=".3"/>
+    <!-- Nasrid sekiz köşeli geometri -->
+    <g transform="translate(100 103)" fill="none" stroke="#E8C95C" stroke-linejoin="round">
+      <path d="M0-48L12-20L40-32L28-4L48 10L20 18L28 46L0 34L-28 46L-20 18L-48 10L-28-4L-40-32L-12-20Z" stroke-width="4"/>
+      <path d="M0-30L9-12L28-10L14 4L18 24L0 15L-18 24L-14 4L-28-10L-9-12Z" stroke-width="3" opacity=".82"/>
+      <circle cx="0" cy="0" r="9" fill="#1F6E51" stroke-width="3"/>
+    </g>
+    <g fill="#E8C95C" opacity=".82">
+      <path d="M54 193L60 205L73 207L63 216L66 229L54 223L42 229L45 216L35 207L48 205Z"/>
+      <path d="M148 187L153 198L165 199L156 207L159 219L148 213L137 219L140 207L131 199L143 198Z"/>
+    </g>
+  </g>
+  <path d="M25 151Q100 165 175 151" fill="none" stroke="#F5D76E" stroke-width="5" opacity=".95"/>
+  <path d="M27 157Q100 171 173 157" fill="none" stroke="#8D6A12" stroke-width="2" opacity=".65"/>
+  <path d="M69 38C49 68 39 112 40 151C41 174 47 190 54 202" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" opacity=".36"/>
+  <ellipse cx="74" cy="49" rx="13" ry="7" fill="#FFFFFF" opacity=".58" transform="rotate(-28 74 49)"/>
+  <path d="M100 14C63 14 39 55 27 116C11 195 45 255 100 255s89-60 73-139C161 55 137 14 100 14Z" fill="none" stroke="url(#rim)" stroke-width="3"/>
+</svg>

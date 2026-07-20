@@ -89,8 +89,8 @@ function AccountPage() {
       {favoriteProducts.length === 0 ? (
         <p className="text-sm text-brand-500 dark:text-brand-400">
           Henüz favori eklemediniz.{" "}
-          <Link to="/premium-essentials" className="text-brand-900 dark:text-brand-300 underline">
-            Ürünlere göz atın
+          <Link to="/blind-boxlar" className="text-brand-900 dark:text-brand-300 underline">
+            Blind box'lara göz atın
           </Link>
           .
         </p>
@@ -99,14 +99,14 @@ function AccountPage() {
           {favoriteProducts.map((p) => (
             <Link
               key={p.id}
-              to={`/urun/${p.id}`}
+              to={`/urun/${p.slug}`}
               className="group block bg-white dark:bg-brand-900 border border-brand-100 dark:border-brand-800 rounded-xl overflow-hidden hover:shadow-card transition-shadow"
             >
               <div className="aspect-square overflow-hidden bg-brand-50 dark:bg-brand-800">
                 <img
-                  src={p.image}
+                  src={p.mainImage}
                   alt={p.name}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-contain p-3 group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-3">

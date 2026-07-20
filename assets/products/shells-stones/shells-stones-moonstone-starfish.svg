@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <title>Moonstone Starfish</title>
+  <defs>
+    <linearGradient id="moonStar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EEE4FA"/>
+      <stop offset=".55" stop-color="#C9B4E4"/>
+      <stop offset="1" stop-color="#9E82C5"/>
+    </linearGradient>
+    <radialGradient id="moonFace" cx="34%" cy="24%" r="74%">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".58" stop-color="#EAF5F5"/>
+      <stop offset="1" stop-color="#AFC9DD"/>
+    </radialGradient>
+  </defs>
+  <circle cx="120" cy="120" r="112" fill="#E9F7F3"/>
+  <circle cx="68" cy="65" r="6" fill="#FFFFFF" opacity=".42"/>
+  <circle cx="182" cy="78" r="7" fill="none" stroke="#B9DED5" stroke-width="2.5" opacity=".72"/>
+  <ellipse cx="120" cy="202" rx="68" ry="10" fill="#326B66" opacity=".14"/>
+  <g stroke="#725E94" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120 41C128 41 133 49 136 62L143 86C146 91 151 89 158 84L178 71C188 65 197 68 198 77C199 83 195 90 188 99L174 117C170 123 172 127 179 131L194 141C205 148 207 157 201 164C197 170 188 170 178 168L158 164C152 163 148 167 149 174L152 192C154 204 149 211 140 212C132 213 126 205 122 195L120 189L118 195C114 205 108 213 100 212C91 211 86 204 88 192L91 174C92 167 88 163 82 164L62 168C52 170 43 170 39 164C33 157 35 148 46 141L61 131C68 127 70 123 66 117L52 99C45 90 41 83 42 77C43 68 52 65 62 71L82 84C89 89 94 91 97 86L104 62C107 49 112 41 120 41Z" fill="url(#moonStar)"/>
+    <path d="M115 49C110 63 108 75 108 88M55 78C71 88 83 99 91 110M45 153C63 149 78 148 92 151" fill="none" stroke="#FFFFFF" stroke-width="3.5" opacity=".58"/>
+    <path d="M126 47C127 68 126 87 123 104M190 79C174 92 160 105 150 118M196 154C177 150 162 151 148 155M142 204C137 189 133 177 129 168M98 203C104 188 108 177 111 167" fill="none" stroke="#A38AC8" opacity=".75"/>
+    <ellipse cx="120" cy="128" rx="44" ry="48" fill="#DCCDF0" opacity=".54" stroke="none"/>
+    <ellipse cx="120" cy="126" rx="34" ry="37" fill="url(#moonFace)" stroke="#7289A0"/>
+    <path d="M94 120C97 103 107 94 122 92" fill="none" stroke="#FFFFFF" stroke-width="3.5" opacity=".85"/>
+    <ellipse cx="108" cy="126" rx="4.5" ry="6" fill="#263E54" stroke="none"/>
+    <ellipse cx="133" cy="126" rx="4.5" ry="6" fill="#263E54" stroke="none"/>
+    <circle cx="106.5" cy="124" r="1.5" fill="#FFFFFF" stroke="none"/>
+    <circle cx="131.5" cy="124" r="1.5" fill="#FFFFFF" stroke="none"/>
+    <ellipse cx="99" cy="140" rx="6" ry="3.4" fill="#E6A1BA" opacity=".6" stroke="none"/>
+    <ellipse cx="141" cy="140" rx="6" ry="3.4" fill="#E6A1BA" opacity=".6" stroke="none"/>
+    <path d="M112 140C117 146 123 146 128 140" fill="none" stroke="#687184"/>
+    <path d="M91 153C98 163 108 169 120 170C132 169 142 163 149 153" fill="none" stroke="#F4E7B0"/>
+    <circle cx="95" cy="156" r="5" fill="#FFF9E9" stroke="#A99062"/>
+    <circle cx="104" cy="164" r="5" fill="#FFF9E9" stroke="#A99062"/>
+    <circle cx="115" cy="168" r="5" fill="#FFF9E9" stroke="#A99062"/>
+    <circle cx="126" cy="168" r="5" fill="#FFF9E9" stroke="#A99062"/>
+    <circle cx="137" cy="164" r="5" fill="#FFF9E9" stroke="#A99062"/>
+    <circle cx="146" cy="156" r="5" fill="#FFF9E9" stroke="#A99062"/>
+    <path d="M114 169C115 177 117 182 120 186C123 182 125 177 126 169Z" fill="#E5C66F" stroke="#9B7742"/>
+    <path d="M120 172C119 176 120 180 124 182C121 184 118 183 116 181C114 177 116 173 120 172Z" fill="#FFF4BC" stroke="none"/>
+    <circle cx="79" cy="107" r="4" fill="#F6EAFD" stroke="none"/>
+    <circle cx="162" cy="105" r="5" fill="#B9A1DA" stroke="none"/>
+    <circle cx="73" cy="147" r="4" fill="#D9C7ED" stroke="none"/>
+    <circle cx="168" cy="145" r="4" fill="#F6EAFD" stroke="none"/>
+  </g>
+  <path d="M46 107C46 100 50 96 57 96C50 96 46 92 46 85C46 92 42 96 35 96C42 96 46 100 46 107Z" fill="#FFFFFF" opacity=".82"/>
+</svg>

@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { useHashScroll } from "../../hooks/useHashScroll";
 
 const faqs = [
   {
@@ -21,6 +22,10 @@ const faqs = [
   {
     q: "Üyelik ücretli mi?",
     a: "Hayır, üyelik tamamen ücretsizdir. Üye olarak favori ürünlerinizi kaydedebilir ve sipariş geçmişinizi takip edebilirsiniz.",
+  },
+  {
+    q: "Bağış programı nasıl işliyor?",
+    a: "Her blind box koleksiyonunun, kimsesiz hayvanların mama, tedavi ve barınma ihtiyaçlarına ayrılan sabit bir katkı payı vardır (koleksiyona göre 20-50 ₺). Bu tutar sipariş toplamınıza eklenmez, tarafımızca karşılanır — sepet sayfasında bağışlanacak tutarı görebilirsiniz.",
   },
 ];
 
@@ -51,13 +56,7 @@ function AccordionItem({ item, isOpen, onToggle }) {
 
 function HelpPage() {
   const [openIndex, setOpenIndex] = useState(0);
-  const { hash } = useLocation();
-
-  useEffect(() => {
-    if (!hash) return;
-    const el = document.getElementById(hash.slice(1));
-    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-  }, [hash]);
+  useHashScroll();
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">

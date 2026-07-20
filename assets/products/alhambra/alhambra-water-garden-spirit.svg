@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <title>Water Garden Spirit</title>
+  <defs>
+    <radialGradient id="backdrop" cx="32%" cy="24%" r="82%">
+      <stop offset="0" stop-color="#FFF9EC"/>
+      <stop offset=".58" stop-color="#F3E5DF"/>
+      <stop offset="1" stop-color="#DEC5CF"/>
+    </radialGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#435E8D"/>
+      <stop offset=".5" stop-color="#223A68"/>
+      <stop offset="1" stop-color="#101D38"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFEAA2"/>
+      <stop offset=".5" stop-color="#E1B64E"/>
+      <stop offset="1" stop-color="#A76D20"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E0FFF7"/>
+      <stop offset=".35" stop-color="#82D9CB"/>
+      <stop offset="1" stop-color="#27877F"/>
+    </linearGradient>
+    <radialGradient id="water-glow" cx="50%" cy="48%" r="62%">
+      <stop offset="0" stop-color="#E7FFF8" stop-opacity=".98"/>
+      <stop offset=".45" stop-color="#69D9C9" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#217B76" stop-opacity=".2"/>
+    </radialGradient>
+    <filter id="soft-shadow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="aqua-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <circle cx="120" cy="120" r="112" fill="url(#backdrop)"/>
+  <path d="M38 139 C46 76 76 41 120 35 C164 41 194 76 202 139" fill="none" stroke="#7A1F2B" stroke-width="2.5" stroke-linecap="round" opacity=".10"/>
+  <path d="M48 160 C58 101 82 66 120 57 C158 66 182 101 192 160" fill="none" stroke="#C49A48" stroke-width="2.5" stroke-linecap="round" opacity=".13"/>
+  <ellipse cx="87" cy="53" rx="42" ry="24" fill="#FFFFFF" opacity=".28" transform="rotate(-20 87 53)"/>
+  <ellipse cx="120" cy="205" rx="59" ry="9" fill="#5B3040" opacity=".20" filter="url(#soft-shadow)"/>
+
+  <!-- Water-garden atmosphere -->
+  <ellipse cx="120" cy="126" rx="57" ry="70" fill="#52C7B7" opacity=".14" filter="url(#aqua-glow)"/>
+  <path d="M48 171 Q61 162 74 171 Q87 180 100 171" fill="none" stroke="#3D9E92" stroke-width="2.5" stroke-linecap="round" opacity=".32"/>
+  <path d="M140 181 Q156 171 172 181 Q184 189 196 181" fill="none" stroke="#3D9E92" stroke-width="2.5" stroke-linecap="round" opacity=".28"/>
+  <ellipse cx="59" cy="129" rx="10" ry="5" fill="#4C9A6E" opacity=".58" transform="rotate(-24 59 129)"/>
+  <ellipse cx="183" cy="114" rx="10" ry="5" fill="#4C9A6E" opacity=".52" transform="rotate(28 183 114)"/>
+
+  <g stroke="#4D2A38" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Andalusian lantern crown and hanging ring -->
+    <ellipse cx="120" cy="31" rx="9" ry="7" fill="none" stroke="#C99839"/>
+    <path d="M120 38 V48" fill="none" stroke="#C99839"/>
+    <path d="M103 55 L111 44 H129 L137 55 L130 67 H110Z" fill="url(#gold)"/>
+    <path d="M110 55 H130 M115 47 L120 55 L125 47" fill="none" stroke="#7A1F2B" stroke-width="2"/>
+
+    <!-- Pierced metal lantern roof -->
+    <path d="M83 79 L103 55 H137 L157 79 L147 92 H93Z" fill="url(#navy)"/>
+    <path d="M83 79 Q120 66 157 79" fill="none" stroke="#E3BD5A"/>
+    <path d="M95 76 L105 65 L115 76 L125 65 L135 76 L145 65" fill="none" stroke="#F0D278" stroke-width="2"/>
+    <path d="M92 91 H148 L157 105 L149 171 H91 L83 105Z" fill="url(#gold)"/>
+
+    <!-- Aqua glass chamber shaped like a horseshoe arch -->
+    <path d="M99 102 Q99 83 120 82 Q141 83 141 102 V158 H99Z" fill="url(#water-glow)"/>
+    <path d="M105 105 Q105 90 120 89 Q135 90 135 105 V154 H105Z" fill="#CFF8EF" opacity=".27" stroke="#DFFCF7" stroke-width="2"/>
+    <path d="M99 102 Q99 83 120 82 Q141 83 141 102" fill="none" stroke="#18365C"/>
+
+    <!-- The glowing water held inside -->
+    <path d="M100 124 Q110 116 120 124 Q130 132 140 124 V158 H100Z" fill="url(#water)" stroke="#267E79"/>
+    <path d="M101 125 Q111 116 121 125 Q130 132 140 124" fill="none" stroke="#E0FFF8" stroke-width="2.5"/>
+    <path d="M112 143 Q120 134 128 143 Q120 157 112 143Z" fill="#E7FFFA" opacity=".86" stroke="#339B91" stroke-width="2"/>
+    <circle cx="119" cy="108" r="6" fill="#E6FFF8" opacity=".75" stroke="none"/>
+    <circle cx="129" cy="116" r="3.5" fill="#E6FFF8" opacity=".66" stroke="none"/>
+
+    <!-- Nasrid lattice over the glass -->
+    <path d="M91 105 L99 113 L91 121 L99 129 L91 137 L99 145 L91 153 M149 105 L141 113 L149 121 L141 129 L149 137 L141 145 L149 153" fill="none" stroke="#243D68" stroke-width="2"/>
+    <path d="M99 103 L91 95 M141 103 L149 95" fill="none" stroke="#E5C15E" stroke-width="2"/>
+    <path d="M110 96 L120 87 L130 96 L120 105Z" fill="none" stroke="#E5C15E" stroke-width="2"/>
+
+    <!-- Ornate lower finial and water basin -->
+    <path d="M91 170 H149 L141 184 H99Z" fill="url(#navy)"/>
+    <path d="M99 170 Q120 180 141 170" fill="none" stroke="#E3BF60"/>
+    <path d="M108 183 H132 L126 193 H114Z" fill="url(#gold)"/>
+    <path d="M62 185 Q120 172 178 185 L169 197 Q120 205 71 197Z" fill="url(#gold)"/>
+    <path d="M68 185 Q120 194 172 185 Q120 176 68 185Z" fill="url(#water)"/>
+    <path d="M78 187 Q89 193 100 187 Q110 194 120 188 Q130 194 140 187 Q151 193 162 187" fill="none" stroke="#E9FFF9" stroke-width="2"/>
+    <path d="M80 197 H160 L166 203 H74Z" fill="#172B50"/>
+
+    <!-- Small jewel accents -->
+    <circle cx="88" cy="102" r="4" fill="#7A1F2B" stroke="#F1D479" stroke-width="2"/>
+    <circle cx="152" cy="102" r="4" fill="#7A1F2B" stroke="#F1D479" stroke-width="2"/>
+    <circle cx="120" cy="177" r="4" fill="#1F6E65" stroke="#F1D479" stroke-width="2"/>
+  </g>
+</svg>

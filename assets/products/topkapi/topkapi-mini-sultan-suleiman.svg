@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" stroke-linecap="round" stroke-linejoin="round">
+  <title>Mini Sultan Süleyman</title>
+  <defs>
+    <linearGradient id="sultan-kaftan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B94D68"/>
+      <stop offset=".56" stop-color="#8F2947"/>
+      <stop offset="1" stop-color="#6F1E38"/>
+    </linearGradient>
+    <linearGradient id="sultan-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE49A"/>
+      <stop offset=".52" stop-color="#E5B94F"/>
+      <stop offset="1" stop-color="#BC8428"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="120" cy="120" r="112" fill="#FBF3E5"/>
+  <ellipse cx="120" cy="205" rx="65" ry="10" fill="#D8C6AE" opacity=".52"/>
+
+  <!-- boots and small collectible body -->
+  <path d="M79 187 Q93 184 108 191 L106 204 Q90 208 71 204 Q70 195 79 187Z" fill="#4A2531"/>
+  <path d="M132 191 Q148 184 161 188 Q170 195 169 204 Q151 208 134 204Z" fill="#4A2531"/>
+  <path d="M79 127 Q94 115 108 114 H135 Q150 116 163 128 Q168 156 170 194 Q148 204 120 194 Q92 204 70 194 Q72 157 79 127Z" fill="url(#sultan-kaftan)" stroke="#5A333B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M82 128 Q69 133 58 148 Q52 163 55 181 Q63 190 76 183 L91 151Z" fill="#A43A58" stroke="#5A333B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M157 128 Q169 132 180 147 Q187 160 183 176 Q175 184 163 178 L148 150Z" fill="#84233F" stroke="#5A333B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M96 118 Q106 130 120 139 Q134 130 143 118 L150 139 Q137 151 120 157 Q103 151 90 139Z" fill="url(#sultan-gold)" stroke="#A87527" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M116 151 Q120 148 124 151 L128 195 Q120 199 112 195Z" fill="#E8BD58"/>
+  <path d="M79 159 Q93 166 102 178 M161 159 Q147 166 138 178" fill="none" stroke="#E9BF58" stroke-width="3" stroke-linecap="round"/>
+  <path d="M85 177 Q100 184 111 188 M155 177 Q140 184 129 188" fill="none" stroke="#D69F38" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="120" cy="166" r="4.5" fill="#F9E6A2"/>
+  <circle cx="120" cy="181" r="4.5" fill="#F9E6A2"/>
+  <path d="M82 130 Q88 126 94 124" fill="none" stroke="#F7D98A" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+
+  <!-- head and imperial beard -->
+  <path d="M89 81 Q89 65 103 58 Q120 49 138 59 Q152 66 151 84 V107 Q150 124 136 135 Q128 142 120 142 Q111 142 103 135 Q89 123 89 106Z" fill="#51312B"/>
+  <path d="M95 80 Q98 66 120 64 Q142 66 145 80 V105 Q145 121 134 131 Q127 137 120 137 Q112 137 105 131 Q95 121 95 105Z" fill="#EDC39D" stroke="#6B4438" stroke-width="3"/>
+  <ellipse cx="107" cy="100" rx="6.5" ry="7.5" fill="#35463E"/>
+  <ellipse cx="133" cy="100" rx="6.5" ry="7.5" fill="#35463E"/>
+  <circle cx="105" cy="97.5" r="2.3" fill="#FFFFFF"/>
+  <circle cx="131" cy="97.5" r="2.3" fill="#FFFFFF"/>
+  <path d="M101 90 Q107 86 114 89 M126 89 Q133 86 139 90" fill="none" stroke="#57352E" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="101" cy="112" rx="7" ry="4.5" fill="#E99A91" opacity=".48"/>
+  <ellipse cx="139" cy="112" rx="7" ry="4.5" fill="#E99A91" opacity=".48"/>
+  <path d="M106 113 Q114 109 120 116 Q126 109 134 113 Q130 119 124 121 Q120 124 116 121 Q110 119 106 113Z" fill="#533028"/>
+  <path d="M108 121 Q120 134 132 121 Q131 134 120 139 Q109 134 108 121Z" fill="#61382F"/>
+  <path d="M111 124 Q120 128 129 124" fill="none" stroke="#8A5845" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="107" cy="77" rx="13" ry="7" fill="#F8DEC0" opacity=".48" transform="rotate(-18 107 77)"/>
+
+  <!-- layered Ottoman turban -->
+  <path d="M78 79 Q72 65 82 55 Q84 45 98 43 Q108 37 122 42 Q136 37 145 44 Q158 45 160 56 Q170 65 163 80 Q143 88 120 85 Q96 88 78 79Z" fill="#FFF8E8" stroke="#8D775F" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M84 58 Q102 51 126 54 Q145 55 160 65 M80 70 Q100 62 126 65 Q147 66 164 74 M99 44 Q101 60 94 78 M121 42 Q125 59 119 84 M143 45 Q144 61 138 82" fill="none" stroke="#D8C6A8" stroke-width="2.7" stroke-linecap="round"/>
+  <path d="M78 76 Q99 82 120 79 Q142 83 164 76 L161 86 Q141 91 120 87 Q99 91 80 86Z" fill="#8E2946" stroke="#683044" stroke-width="2.8"/>
+  <path d="M113 78 Q120 70 127 78 L125 87 Q120 91 115 87Z" fill="url(#sultan-gold)"/>
+  <circle cx="120" cy="80" r="3.8" fill="#2F8B6B"/>
+
+  <!-- hands and the sealed decree -->
+  <ellipse cx="67" cy="177" rx="10" ry="9" fill="#EDC39D" stroke="#6B4438" stroke-width="2.7"/>
+  <path d="M159 144 Q167 137 174 144 L176 179 Q169 185 160 178Z" fill="#EDC39D" stroke="#6B4438" stroke-width="2.7"/>
+  <path d="M158 134 Q172 130 185 135 L184 190 Q172 195 159 190Z" fill="#FFF0C9" stroke="#9E7950" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M156 137 Q171 142 187 136 M157 187 Q172 182 186 188" fill="none" stroke="#D9AD55" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M164 151 H179 M164 159 H179 M164 167 H176" fill="none" stroke="#B28D69" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="174" cy="179" r="8" fill="#9E3150" stroke="#6D2840" stroke-width="2.5"/>
+  <path d="M170 177 L174 173 L178 177 L174 183Z" fill="#F1C85E"/>
+  <ellipse cx="162" cy="138" rx="4" ry="9" fill="#FFFFFF" opacity=".35" transform="rotate(35 162 138)"/>
+</svg>

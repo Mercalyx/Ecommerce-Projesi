@@ -19,10 +19,10 @@ function CartItem({ item }) {
   return (
     <div className="flex items-center gap-4 py-4 border-b border-brand-100 dark:border-brand-800">
       <div className="w-16 h-16 sm:w-20 sm:h-20 bg-brand-50 dark:bg-brand-800 rounded-xl overflow-hidden shrink-0">
-        <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
+        <img src={item.mainImage} alt={item.name} className="w-full h-full object-contain p-2" />
       </div>
       <div className="flex-1 min-w-0">
-        <p className="text-xs uppercase tracking-wide text-brand-400 dark:text-brand-500">{item.category}</p>
+        <p className="text-xs uppercase tracking-wide text-brand-400 dark:text-brand-500">{item.collectionName}</p>
         <h3 className="text-sm font-medium text-brand-900 dark:text-white line-clamp-1">{item.name}</h3>
         <p className="text-sm text-brand-950 dark:text-brand-200 mt-1">
           {item.price.toLocaleString("tr-TR")} ₺

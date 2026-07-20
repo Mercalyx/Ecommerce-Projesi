@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <title>Sea Glass Spirit</title>
+  <defs>
+    <linearGradient id="seaGlassBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A8E8D7"/>
+      <stop offset=".55" stop-color="#57C7B2"/>
+      <stop offset="1" stop-color="#269181"/>
+    </linearGradient>
+    <linearGradient id="seaGlassBottle" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DFFFF4"/>
+      <stop offset="1" stop-color="#76CABA"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="112" fill="#E9F7F3"/>
+  <circle cx="69" cy="65" r="6" fill="#FFFFFF" opacity=".42"/>
+  <circle cx="181" cy="78" r="7" fill="none" stroke="#B9DED5" stroke-width="2.5" opacity=".72"/>
+  <ellipse cx="120" cy="202" rx="67" ry="10" fill="#326B66" opacity=".14"/>
+  <g stroke="#286A67" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M87 75C89 57 101 44 120 41C139 44 151 57 153 75C166 87 169 103 163 119C171 140 175 164 177 194C159 203 140 207 120 207C100 207 81 203 63 194C65 164 69 140 77 119C71 103 74 87 87 75Z" fill="url(#seaGlassBody)"/>
+    <path d="M87 75C96 61 107 54 120 52C133 54 144 61 153 75C143 71 136 68 130 63C119 71 105 75 87 75Z" fill="#73D5C0"/>
+    <path d="M98 59C104 52 112 48 120 47" fill="none" stroke="#E3FFF5" stroke-width="3.5" opacity=".85"/>
+    <path d="M92 76C101 68 109 64 120 62C131 64 139 68 148 76L144 109C138 123 130 130 120 132C110 130 102 123 96 109Z" fill="#C4F1E4"/>
+    <path d="M96 79C101 75 106 72 112 70L108 119C101 114 98 107 96 98Z" fill="#E7FFF7" opacity=".72" stroke="none"/>
+    <path d="M120 63L119 130M98 80L112 90L98 107M142 77L129 93L144 107" fill="none" stroke="#75C8B7" opacity=".78"/>
+    <ellipse cx="109" cy="96" rx="4.4" ry="5.8" fill="#23484B" stroke="none"/>
+    <ellipse cx="132" cy="96" rx="4.4" ry="5.8" fill="#23484B" stroke="none"/>
+    <circle cx="107.5" cy="94" r="1.4" fill="#FFFFFF" stroke="none"/>
+    <circle cx="130.5" cy="94" r="1.4" fill="#FFFFFF" stroke="none"/>
+    <ellipse cx="100" cy="109" rx="5.5" ry="3" fill="#E89DB1" opacity=".48" stroke="none"/>
+    <ellipse cx="140" cy="109" rx="5.5" ry="3" fill="#E89DB1" opacity=".48" stroke="none"/>
+    <path d="M112 109C117 114 123 114 128 109" fill="none" stroke="#467B78"/>
+    <path d="M77 119C91 126 104 129 120 129C136 129 149 126 163 119" fill="none" stroke="#DFFFF5"/>
+    <path d="M83 128L100 144L90 175L66 184M120 132L108 158L120 198L133 158L120 132M157 128L140 144L150 176L174 186" fill="none" stroke="#9EE2D2" opacity=".86"/>
+    <path d="M72 139C60 138 53 145 51 159C55 169 63 174 74 170L90 151" fill="#69CDB9"/>
+    <path d="M168 138C180 138 187 145 189 159C185 169 177 174 166 170L150 151" fill="#69CDB9"/>
+    <path d="M70 130C86 137 101 140 120 140C139 140 154 137 170 130" fill="none" stroke="#D8B96E"/>
+    <circle cx="93" cy="135" r="5" fill="#B9EEE0" stroke="#9B7742"/>
+    <circle cx="111" cy="138" r="5" fill="#FFF7DE" stroke="#9B7742"/>
+    <circle cx="129" cy="138" r="5" fill="#6DCABB" stroke="#9B7742"/>
+    <circle cx="147" cy="135" r="5" fill="#D6F4EA" stroke="#9B7742"/>
+    <path d="M45 148C45 143 49 139 54 139H68C73 139 77 143 77 148V188C77 193 73 197 68 197H54C49 197 45 193 45 188Z" fill="url(#seaGlassBottle)"/>
+    <path d="M53 130H69V141H53Z" fill="#B8DCCF"/>
+    <path d="M51 155C59 151 66 151 73 155V187C66 190 59 190 51 187Z" fill="#E7FFF7" opacity=".54" stroke="none"/>
+    <path d="M56 160C60 166 64 166 68 160" fill="none" stroke="#D8B96E"/>
+    <path d="M56 181C60 177 64 177 68 181" fill="none" stroke="#D8B96E"/>
+    <path d="M180 133C185 130 190 133 190 138C190 143 185 146 180 143C176 146 173 151 174 156L181 188" fill="none" stroke="#9A7048" stroke-width="3.5"/>
+    <path d="M181 188L173 197M181 188L190 194M178 172L189 168" fill="none" stroke="#9A7048" stroke-width="3.5"/>
+    <path d="M72 193C82 187 91 188 101 195M139 195C149 188 158 187 168 193" fill="none" stroke="#DFFFF5"/>
+  </g>
+  <path d="M45 105C45 98 49 94 56 94C49 94 45 90 45 83C45 90 41 94 34 94C41 94 45 98 45 105Z" fill="#FFFFFF" opacity=".82"/>
+</svg>

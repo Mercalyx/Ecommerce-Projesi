@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" stroke-linecap="round" stroke-linejoin="round">
+  <title>Mini Hürrem Sultan</title>
+  <defs>
+    <linearGradient id="hurrem-gown" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#45A184"/>
+      <stop offset=".55" stop-color="#19705E"/>
+      <stop offset="1" stop-color="#105043"/>
+    </linearGradient>
+    <linearGradient id="hurrem-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE69A"/>
+      <stop offset=".55" stop-color="#E6B84E"/>
+      <stop offset="1" stop-color="#B77924"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="120" cy="120" r="112" fill="#FBF3E5"/>
+  <ellipse cx="120" cy="205" rx="65" ry="10" fill="#D8C6AE" opacity=".52"/>
+
+  <!-- copper curls behind the figure -->
+  <path d="M83 78 Q82 59 99 53 Q120 43 141 54 Q158 62 157 82 V128 Q156 144 145 151 Q136 144 132 130 H108 Q104 144 94 151 Q83 143 83 127Z" fill="#9A472D" stroke="#68362D" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M88 111 Q76 124 87 136 Q75 149 90 158 Q101 154 104 139 L104 109Z" fill="#B95C35" stroke="#713829" stroke-width="2.8"/>
+  <path d="M152 111 Q164 124 153 136 Q165 149 150 158 Q139 154 136 139 L136 109Z" fill="#A94F30" stroke="#713829" stroke-width="2.8"/>
+  <path d="M91 119 Q84 129 92 136 Q84 145 94 150 M149 119 Q156 129 148 136 Q156 145 146 150" fill="none" stroke="#E0844B" stroke-width="2.7" stroke-linecap="round"/>
+
+  <!-- jeweled emerald gown -->
+  <path d="M83 127 Q96 115 107 114 H133 Q145 115 158 127 Q170 161 174 195 Q148 204 120 195 Q92 204 66 195 Q71 159 83 127Z" fill="url(#hurrem-gown)" stroke="#405144" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M84 128 Q69 133 58 150 Q52 164 56 181 Q65 188 77 181 L94 149Z" fill="#27836C" stroke="#405144" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M156 128 Q171 134 182 150 Q188 165 184 181 Q175 188 163 181 L146 149Z" fill="#155B4D" stroke="#405144" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M101 116 Q110 131 120 137 Q130 131 139 116 L150 138 Q137 151 120 158 Q103 151 90 138Z" fill="#8E2947" stroke="#6E3040" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M115 151 Q120 147 125 151 L130 195 Q120 200 110 195Z" fill="url(#hurrem-gold)"/>
+  <path d="M82 160 Q98 165 106 178 M158 160 Q142 165 134 178" fill="none" stroke="#E8BA50" stroke-width="3" stroke-linecap="round"/>
+  <path d="M80 181 Q99 184 110 191 M160 181 Q141 184 130 191" fill="none" stroke="#D79B32" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M96 130 Q102 136 108 139 M144 130 Q138 136 132 139" fill="none" stroke="#FFD97B" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="120" cy="167" r="4.5" fill="#A52D49"/>
+  <circle cx="120" cy="182" r="4.5" fill="#FFF3D5"/>
+  <path d="M86 132 Q90 127 97 124" fill="none" stroke="#79C2A8" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+  <path d="M77 190 Q92 188 108 197 L106 205 Q87 208 70 204Z" fill="#6F263C"/>
+  <path d="M132 197 Q148 188 163 190 L170 204 Q152 208 134 205Z" fill="#6F263C"/>
+
+  <!-- face with strong, cute expression -->
+  <path d="M94 76 Q98 61 120 59 Q142 61 146 76 V105 Q145 120 135 131 Q127 138 120 138 Q112 138 105 131 Q95 121 94 105Z" fill="#F0C5A1" stroke="#6D4438" stroke-width="3"/>
+  <path d="M96 80 Q102 65 120 64 Q134 65 142 75 Q135 71 129 74 Q120 79 111 73 Q104 69 96 80Z" fill="#C8663A"/>
+  <ellipse cx="107" cy="99" rx="6.5" ry="7.5" fill="#34534A"/>
+  <ellipse cx="133" cy="99" rx="6.5" ry="7.5" fill="#34534A"/>
+  <circle cx="105" cy="96.5" r="2.3" fill="#FFFFFF"/>
+  <circle cx="131" cy="96.5" r="2.3" fill="#FFFFFF"/>
+  <path d="M100 89 Q107 84 115 89 M125 89 Q133 84 140 89" fill="none" stroke="#75402E" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="101" cy="112" rx="7" ry="4.5" fill="#ED9295" opacity=".55"/>
+  <ellipse cx="139" cy="112" rx="7" ry="4.5" fill="#ED9295" opacity=".55"/>
+  <path d="M110 117 Q120 124 130 117 Q127 129 120 130 Q113 129 110 117Z" fill="#B95461"/>
+  <path d="M113 119 Q120 122 127 119" fill="none" stroke="#F6BBC0" stroke-width="2.3" stroke-linecap="round"/>
+  <ellipse cx="106" cy="75" rx="12" ry="6" fill="#FFE0C3" opacity=".46" transform="rotate(-18 106 75)"/>
+
+  <!-- elegant Ottoman crown, emeralds, rubies and pearls -->
+  <path d="M86 72 Q89 55 96 47 L108 59 L120 39 L132 59 L145 47 Q151 58 154 72Z" fill="url(#hurrem-gold)" stroke="#8B622B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M91 68 Q120 74 149 68 L148 78 Q120 84 92 78Z" fill="#8E2947" stroke="#693143" stroke-width="2.8"/>
+  <circle cx="102" cy="70" r="4.5" fill="#2D9675"/>
+  <circle cx="120" cy="69" r="5" fill="#C93E53"/>
+  <circle cx="138" cy="70" r="4.5" fill="#2D9675"/>
+  <circle cx="120" cy="48" r="4" fill="#C93E53"/>
+  <circle cx="108" cy="76" r="3.2" fill="#FFF5D9"/>
+  <circle cx="132" cy="76" r="3.2" fill="#FFF5D9"/>
+
+  <!-- pearl jewelry and hands -->
+  <circle cx="91" cy="104" r="4.5" fill="#FFF8E8" stroke="#C9A769" stroke-width="2"/>
+  <circle cx="149" cy="104" r="4.5" fill="#FFF8E8" stroke="#C9A769" stroke-width="2"/>
+  <path d="M103 129 Q120 143 137 129" fill="none" stroke="#FFF5D9" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="1 7"/>
+  <path d="M116 137 L120 145 L124 137 L120 133Z" fill="#C73E52" stroke="#8D2940" stroke-width="2"/>
+  <ellipse cx="67" cy="177" rx="10" ry="9" fill="#F0C5A1" stroke="#6D4438" stroke-width="2.7"/>
+  <ellipse cx="173" cy="177" rx="10" ry="9" fill="#F0C5A1" stroke="#6D4438" stroke-width="2.7"/>
+  <ellipse cx="91" cy="133" rx="5" ry="10" fill="#FFFFFF" opacity=".3" transform="rotate(35 91 133)"/>
+</svg>

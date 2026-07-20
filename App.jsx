@@ -5,12 +5,14 @@ import Footer from "./Footer";
 import { AuthProvider } from "./context/AuthContext";
 import { ThemeProvider } from "./context/ThemeContext";
 import HomePage from "./pages/HomePage";
-import PremiumEssentialsPage from "./pages/Premium Essentials/PremiumEssentialsPage";
+import BlindBoxListPage from "./pages/BlindBoxes/BlindBoxListPage";
+import BlindBoxDetailPage from "./pages/BlindBoxes/BlindBoxDetailPage";
+import CollectionsPage from "./pages/CollectionsPage";
+import AnimalSupportPage from "./pages/AnimalSupportPage";
 import CartPage from "./pages/Cart/CartPage";
 import LoginPage from "./pages/Auth/LoginPage";
 import RegisterPage from "./pages/Auth/RegisterPage";
 import AccountPage from "./pages/Auth/AccountPage";
-import ProductDetailPage from "./pages/Premium Essentials/ProductDetailPage";
 import HelpPage from "./pages/Help/HelpPage";
 import ContactPage from "./pages/Help/ContactPage";
 
@@ -34,8 +36,10 @@ function App() {
               <div className="flex-1">
                 <Routes>
                   <Route path="/" element={<HomePage />} />
-                  <Route path="/premium-essentials" element={<PremiumEssentialsPage />} />
-                  <Route path="/urun/:id" element={<ProductDetailPage />} />
+                  <Route path="/blind-boxlar" element={<BlindBoxListPage />} />
+                  <Route path="/urun/:slug" element={<BlindBoxDetailPage />} />
+                  <Route path="/koleksiyonlar" element={<CollectionsPage />} />
+                  <Route path="/patilere-destek" element={<AnimalSupportPage />} />
                   <Route path="/cart" element={<CartPage />} />
                   <Route path="/giris" element={<LoginPage />} />
                   <Route path="/kayit" element={<RegisterPage />} />

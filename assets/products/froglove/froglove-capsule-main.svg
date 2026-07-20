@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280">
+  <title>FrogLove premium egg capsule</title>
+  <defs>
+    <linearGradient id="shell" x1="18%" y1="8%" x2="82%" y2="92%">
+      <stop offset="0" stop-color="#CFF2DA"/>
+      <stop offset=".46" stop-color="#91D2A8"/>
+      <stop offset="1" stop-color="#5FA37A"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="28%" cy="20%" r="72%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".9"/>
+      <stop offset=".34" stop-color="#FFFFFF" stop-opacity=".27"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".68"/>
+      <stop offset="1" stop-color="#2F6D4A" stop-opacity=".65"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <clipPath id="eggClip">
+      <path d="M100 14C63 14 39 55 27 116C11 195 45 255 100 255s89-60 73-139C161 55 137 14 100 14Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="100" cy="257" rx="58" ry="10" fill="#244D35" opacity=".3" filter="url(#shadow)"/>
+  <path d="M100 14C63 14 39 55 27 116C11 195 45 255 100 255s89-60 73-139C161 55 137 14 100 14Z" fill="url(#shell)"/>
+  <g clip-path="url(#eggClip)">
+    <ellipse cx="67" cy="77" rx="55" ry="80" fill="url(#shine)"/>
+    <path d="M26 151Q100 165 174 151V166Q100 179 26 165Z" fill="#4F8F69" opacity=".3"/>
+    <!-- zambak ve kalp deseni -->
+    <g transform="translate(100 104)">
+      <path d="M0 29C-2 11-1-2 3-17" fill="none" stroke="#3F815B" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="-13" cy="-20" rx="14" ry="9" fill="#F8C7D8" transform="rotate(28 -13 -20)"/>
+      <ellipse cx="13" cy="-20" rx="14" ry="9" fill="#F8C7D8" transform="rotate(-28 13 -20)"/>
+      <ellipse cx="0" cy="-30" rx="10" ry="15" fill="#FFDDEA"/>
+      <circle cx="0" cy="-18" r="7" fill="#FFF9E9"/>
+      <path d="M-18 15C-29 4-41 21-18 38C5 21-7 4-18 15Z" fill="#E987A8"/>
+      <path d="M22 13C14 5 5 18 22 31C39 18 30 5 22 13Z" fill="#FFF0F5" opacity=".9"/>
+    </g>
+    <g fill="#F8C7D8" opacity=".88">
+      <circle cx="54" cy="192" r="8"/><circle cx="146" cy="202" r="7"/>
+    </g>
+    <g fill="#FFF7FB" opacity=".86">
+      <path d="M55 184C47 176 39 188 55 200C71 188 63 176 55 184Z"/>
+      <path d="M146 194C139 187 132 198 146 209C160 198 153 187 146 194Z"/>
+    </g>
+  </g>
+  <path d="M25 151Q100 165 175 151" fill="none" stroke="#E6F8EB" stroke-width="5" opacity=".95"/>
+  <path d="M27 157Q100 171 173 157" fill="none" stroke="#397856" stroke-width="2" opacity=".65"/>
+  <path d="M69 38C49 68 39 112 40 151C41 174 47 190 54 202" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" opacity=".36"/>
+  <ellipse cx="74" cy="49" rx="13" ry="7" fill="#FFFFFF" opacity=".58" transform="rotate(-28 74 49)"/>
+  <path d="M100 14C63 14 39 55 27 116C11 195 45 255 100 255s89-60 73-139C161 55 137 14 100 14Z" fill="none" stroke="url(#rim)" stroke-width="3"/>
+</svg>

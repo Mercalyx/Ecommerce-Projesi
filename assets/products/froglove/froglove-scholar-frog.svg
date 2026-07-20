@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <title>Akademisyen Kurbağa</title>
+  <circle cx="120" cy="120" r="112" fill="#EAF6EE"/>
+  <ellipse cx="120" cy="205" rx="58" ry="9" fill="#CFE8D7"/>
+
+  <!-- Zambak Tutan Kurbağa ile aynı yuvarlak gövde ve pastel yüz dili -->
+  <ellipse cx="120" cy="154" rx="60" ry="49" fill="#8FCBA4"/>
+  <ellipse cx="72" cy="142" rx="17" ry="21" fill="#8FCBA4"/>
+  <ellipse cx="168" cy="142" rx="17" ry="21" fill="#8FCBA4"/>
+  <path d="M78 137 Q82 119 99 116 L120 137 L141 116 Q158 119 162 137 L160 199 Q140 207 120 194 Q100 207 80 199Z" fill="#445674"/>
+  <path d="M99 118 L120 138 L141 118 L134 151 L120 143 L106 151Z" fill="#F3FBEF"/>
+  <path d="M116 139 H124 V193 H116Z" fill="#E8C865"/>
+
+  <circle cx="93" cy="100" r="23" fill="#8FCBA4"/>
+  <circle cx="147" cy="100" r="23" fill="#8FCBA4"/>
+  <circle cx="93" cy="97" r="9" fill="#182420"/>
+  <circle cx="147" cy="97" r="9" fill="#182420"/>
+  <circle cx="90" cy="94" r="3" fill="#FFFFFF"/>
+  <circle cx="144" cy="94" r="3" fill="#FFFFFF"/>
+  <circle cx="80" cy="120" r="7" fill="#F2A0B8" opacity=".55"/>
+  <circle cx="160" cy="120" r="7" fill="#F2A0B8" opacity=".55"/>
+  <path d="M104 132 Q120 142 136 132" fill="none" stroke="#5E9C77" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Belirgin yuvarlak gözlük -->
+  <circle cx="93" cy="99" r="15" fill="none" stroke="#493E39" stroke-width="4"/>
+  <circle cx="147" cy="99" r="15" fill="none" stroke="#493E39" stroke-width="4"/>
+  <path d="M108 99 H132 M77 96 L68 92 M163 96 L172 92" fill="none" stroke="#493E39" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Akademik kep ve yumuşak püskül -->
+  <path d="M72 75 L120 54 L168 75 L120 94Z" fill="#34445F"/>
+  <path d="M91 82 Q120 92 149 82 V96 Q120 105 91 96Z" fill="#445674"/>
+  <path d="M164 75 V102 Q164 108 170 111" fill="none" stroke="#D9B95F" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="171" cy="114" r="5" fill="#E8C865"/>
+
+  <!-- İki eliyle tuttuğu açık kitap -->
+  <ellipse cx="83" cy="174" rx="14" ry="12" fill="#8FCBA4"/>
+  <ellipse cx="157" cy="174" rx="14" ry="12" fill="#8FCBA4"/>
+  <path d="M67 160 Q94 157 120 172 V207 Q94 191 67 194Z" fill="#FFF5DC" stroke="#A66A62" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M173 160 Q146 157 120 172 V207 Q146 191 173 194Z" fill="#FFF5DC" stroke="#A66A62" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M76 169 Q95 168 111 177 M76 179 Q95 178 108 185 M164 169 Q145 168 129 177 M164 179 Q145 178 132 185" fill="none" stroke="#D3B99A" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="94" cy="203" rx="15" ry="9" fill="#8FCBA4"/>
+  <ellipse cx="146" cy="203" rx="15" ry="9" fill="#8FCBA4"/>
+</svg>

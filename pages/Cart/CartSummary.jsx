@@ -8,6 +8,7 @@ function CartSummary({ items }) {
   const subtotal = items.reduce((sum, item) => sum + item.price * item.qty, 0);
   const shipping = subtotal === 0 || subtotal >= 250 ? 0 : 49.9;
   const total = subtotal + shipping;
+  const donation = items.reduce((sum, item) => sum + item.animalSupportContribution * item.qty, 0);
 
   function checkout() {
     const order = {
@@ -45,6 +46,12 @@ function CartSummary({ items }) {
         >
           Siparişi Tamamla
         </button>
+
+        {donation > 0 && (
+          <p className="mt-3 text-xs text-accent-700 dark:text-accent-400 text-center">
+            🐾 Bu siparişten {donation.toLocaleString("tr-TR")} ₺ kimsesiz hayvanlara bağışlanacak
+          </p>
+        )}
       </div>
     </div>
   );

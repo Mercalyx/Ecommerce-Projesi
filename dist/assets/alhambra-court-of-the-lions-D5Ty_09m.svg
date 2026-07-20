@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <title>Court of the Lions</title>
+  <defs>
+    <radialGradient id="backdrop" cx="32%" cy="24%" r="82%">
+      <stop offset="0" stop-color="#FFF9EC"/>
+      <stop offset=".58" stop-color="#F3E5DF"/>
+      <stop offset="1" stop-color="#DEC5CF"/>
+    </radialGradient>
+    <linearGradient id="marble" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFDF3"/>
+      <stop offset=".48" stop-color="#EEE4D2"/>
+      <stop offset="1" stop-color="#C9BCA7"/>
+    </linearGradient>
+    <linearGradient id="marble-shadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9DFCB"/>
+      <stop offset="1" stop-color="#B9AA93"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFEBA5"/>
+      <stop offset=".55" stop-color="#DDB24D"/>
+      <stop offset="1" stop-color="#A86E20"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CCF3EA"/>
+      <stop offset="1" stop-color="#429D9A"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="rare-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <circle cx="120" cy="120" r="112" fill="url(#backdrop)"/>
+  <path d="M38 139 C46 76 76 41 120 35 C164 41 194 76 202 139" fill="none" stroke="#7A1F2B" stroke-width="2.5" stroke-linecap="round" opacity=".10"/>
+  <path d="M48 160 C58 101 82 66 120 57 C158 66 182 101 192 160" fill="none" stroke="#C49A48" stroke-width="2.5" stroke-linecap="round" opacity=".13"/>
+  <ellipse cx="87" cy="53" rx="42" ry="24" fill="#FFFFFF" opacity=".28" transform="rotate(-20 87 53)"/>
+  <ellipse cx="120" cy="205" rx="59" ry="9" fill="#5B3040" opacity=".20" filter="url(#soft-shadow)"/>
+
+  <!-- Secret Rare museum radiance -->
+  <circle cx="120" cy="105" r="72" fill="#F2CD6B" opacity=".18" filter="url(#rare-glow)"/>
+  <circle cx="120" cy="105" r="67" fill="none" stroke="#D5A943" stroke-width="2.5" opacity=".46"/>
+  <g fill="#E1B952">
+    <path d="M120 28 C124 37 124 41 120 50 C116 41 116 37 120 28Z"/>
+    <path d="M61 67 C68 69 72 73 74 80 C67 78 63 74 61 67Z"/>
+    <path d="M179 67 C172 69 168 73 166 80 C173 78 177 74 179 67Z"/>
+    <circle cx="54" cy="118" r="4"/>
+    <circle cx="186" cy="118" r="4"/>
+  </g>
+
+  <g stroke="#4D2A38" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Andalusian marble lion: a true collectible sculpture -->
+    <path d="M91 95 Q102 75 133 75 Q158 75 170 94 Q177 108 170 127 Q162 142 142 144 H102 Q83 140 78 122 Q74 106 91 95Z" fill="url(#marble)"/>
+    <path d="M127 79 Q151 76 166 94 Q172 106 166 119 Q157 101 137 100 Q117 100 103 111 Q89 122 85 133 Q77 122 79 109 Q82 99 91 95 Q102 75 127 79Z" fill="#F7F1E4" opacity=".72" stroke="none"/>
+
+    <!-- Sculpted head, ears, muzzle and restrained mane -->
+    <path d="M67 83 Q73 70 85 76 Q95 69 103 80 Q115 83 110 96 Q117 106 107 114 Q108 127 96 128 Q87 137 77 128 Q63 131 60 118 Q48 111 56 101 Q51 90 63 86Z" fill="url(#marble-shadow)"/>
+    <path d="M65 88 Q57 101 64 115 Q71 128 86 131" fill="none" stroke="#AFA087" stroke-width="2"/>
+    <path d="M76 89 Q65 78 62 91 Q63 103 75 103Z" fill="url(#marble-shadow)"/>
+    <path d="M97 87 Q106 72 111 87 Q106 96 98 99Z" fill="url(#marble-shadow)"/>
+    <path d="M71 91 Q80 79 96 84 Q107 94 101 110 Q96 123 80 123 Q65 120 63 106 Q62 96 71 91Z" fill="url(#marble)"/>
+    <path d="M67 91 Q59 100 64 113 Q70 125 83 128" fill="none" stroke="#B7A98F"/>
+    <path d="M72 103 Q82 96 94 102" fill="none" stroke="#B7A98F"/>
+    <path d="M89 106 Q101 109 98 117 Q91 125 78 119 Q76 111 89 106Z" fill="#E2D5BF"/>
+    <ellipse cx="73" cy="101" rx="3.5" ry="4.5" fill="#2C3441" stroke="none"/>
+    <circle cx="72" cy="100" r="1.2" fill="#FFFFFF" stroke="none"/>
+    <path d="M99 111 L104 113 L99 117Z" fill="#876451" stroke="none"/>
+    <path d="M90 121 Q96 124 101 120" fill="none" stroke="#9B806B" stroke-width="2"/>
+
+    <!-- Legs and paws are fully visible -->
+    <path d="M91 126 Q99 124 106 130 L104 163 Q98 172 88 164 L87 139Z" fill="url(#marble-shadow)"/>
+    <path d="M143 130 Q151 124 159 130 L161 164 Q153 172 144 164 L141 141Z" fill="url(#marble-shadow)"/>
+    <path d="M87 159 Q97 154 107 161 L108 169 Q97 175 85 169Z" fill="url(#marble)"/>
+    <path d="M141 160 Q152 154 162 161 L163 169 Q152 175 140 169Z" fill="url(#marble)"/>
+    <path d="M91 164 V170 M99 163 V170 M147 164 V170 M155 163 V170" fill="none" stroke="#B9AA92" stroke-width="2"/>
+
+    <!-- Tall curling tail and marble veining -->
+    <path d="M164 96 Q190 87 190 110 Q190 128 174 129 Q165 128 166 119 Q168 112 176 115" fill="none" stroke="#D9CDB9" stroke-width="10"/>
+    <path d="M164 96 Q190 87 190 110 Q190 128 174 129" fill="none" stroke="#AFA087" stroke-width="2"/>
+    <path d="M116 91 Q128 98 139 91 M118 119 Q133 111 149 117 M87 91 Q92 96 98 96" fill="none" stroke="#B5AB9E" stroke-width="2" opacity=".68"/>
+
+    <!-- Turquoise collar and royal medallion -->
+    <path d="M96 91 Q105 99 104 111" fill="none" stroke="#2D706C" stroke-width="7"/>
+    <path d="M99 100 L106 107" fill="none" stroke="#E0B954" stroke-width="2"/>
+    <path d="M102 109 L111 117 L102 126 L93 117Z" fill="url(#gold)"/>
+    <circle cx="102" cy="117" r="3" fill="#1F6E65" stroke="none"/>
+
+    <!-- Premium marble plinth and reflective water inlay -->
+    <path d="M63 166 H177 L185 181 Q120 191 55 181Z" fill="url(#marble)"/>
+    <path d="M61 169 Q120 181 179 169 Q120 161 61 169Z" fill="url(#water)"/>
+    <path d="M68 174 Q81 181 94 174 Q107 183 120 175 Q133 183 146 174 Q159 181 172 174" fill="none" stroke="#F6E3A1" stroke-width="2"/>
+    <path d="M62 181 Q120 191 178 181 L169 194 Q120 202 71 194Z" fill="url(#marble-shadow)"/>
+    <path d="M78 193 H162 L170 202 Q120 209 70 202Z" fill="url(#gold)"/>
+    <path d="M102 185 H138 L133 194 H107Z" fill="#1F385E"/>
+    <path d="M108 187 L120 182 L132 187 L120 192Z" fill="#E9C75E" stroke-width="2"/>
+  </g>
+</svg>
